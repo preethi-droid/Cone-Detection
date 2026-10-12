@@ -33,11 +33,11 @@ The object detection model is based on **YOLO11n (Nano)**, paired with a ZED2i c
 * **Optimizer:** Default AdamW/SGD configuration with cosine learning rate decay.
 
 ### Results
-Performance metrics evaluated on the validation set:
-* **Precision:** 94.2%
-* **Recall:** 91.8%
-* **mAP@0.5:** 95.6%
-* **mAP@0.5:0.95:** 74.3%
+Performance metrics evaluated on the validation set after 50 epochs[cite: 2]:
+- **Precision:** 97.8%
+- **Recall:** 99.1%
+- **mAP@0.5:** 98.9%
+- **mAP@0.5:0.95:** 84.0%
 
 ---
 
